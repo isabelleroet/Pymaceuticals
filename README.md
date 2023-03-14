@@ -5,7 +5,8 @@
 The number of mice are shown from the merged DataFrame.  
 Each duplicate mice is found based on the Mouse ID and Timepoint.  
 A clean DataFrame is created with the dropped duplicate mice. 
-The number of mice are shown from the clean DataFrame.```  
+The number of mice are shown from the clean DataFrame.
+```  
 
 
 ## Generate Summary Statistics  
@@ -14,13 +15,15 @@ The media of the tumor volume for each regimen is calculated using groupby.
 The variance of the tumor volume for each regimen is calculated using groupby.  
 The standard deviation of the tumor volume for each regimen is calculated using groupby.  
 The SEM of the tumor volume for each regimen is calculated using groupby. 
-A new DataFrame is created with using the summary statistics.```
+A new DataFrame is created with using the summary statistics.
+```
 
 ## Create Bar Charts and Pie Charts (15 points)
 ```A bar plot showing the total number of timepoints for all mice tested for each drug regimen using Pandas is generated.  
 A bar plot showing the total number of timepoints for all mice tested for each drug regimen using pyplot is generated.  
 A pie plot showing the distribution of female versus male mice using Pandas is generated.  
-A pie plot showing the distribution of female versus male mice using pyplot is generated.```
+A pie plot showing the distribution of female versus male mice using pyplot is generated.
+```
 
 ## Calculate Quartiles, Find Outliers, and Create a Box Plot  
 ```A DatFrame that has the last timepoint for each mouse ID is created using groupby. 
@@ -29,7 +32,8 @@ Retrieve the maximum timepoint for each mouse.
 The four treatment groups, Capomulin, Ramicane, Infubinol, and Ceftamin, are put in a list.  
 An empty list is created to fill with tumor volume data. 
 A for loop is used to display the interquartile range (IQR) and the outliers for each treatment group  
-A box plot is generated that shows the distribution of the final tumor volume for all the mice in each treatment group.```
+A box plot is generated that shows the distribution of the final tumor volume for all the mice in each treatment group.
+```
 
 ## Create a Line Plot and a Scatter Plot  
 ```A line plot is generated that shows the tumor volume vs. time point for one mouse treated with Capomulin.  
